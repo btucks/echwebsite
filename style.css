@@ -1,0 +1,210 @@
+body {
+    background-color: #36393a;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 225px;
+    background-color: #add2eb;
+    justify-content: flex-end;
+    padding: 20px 50px;
+    box-shadow: 0 1px 8px #ddd;
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+    margin-right: auto;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header a:hover {
+    color: #df013c;
+}
+
+.mission {
+    background-color: #36393a;
+    color: white;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    line-height: 35px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.content {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 4px;
+    background-color: #add2eb;
+    box-shadow: 0 1px 8px #ddd;
+    font-family: 'Cabin', sans-serif;
+    min-height: 800px;
+}
+
+.content img {
+    width: 480px;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .content img {
+        width: 350px;
+    }
+}
+
+.podcasts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid black;
+    color: transparent;
+    margin: 10px;
+}
+
+.podcasts h1 {
+    position: absolute;
+}
+
+.podcasts:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.podcasts img:hover {
+    opacity: 50%;
+}
+
+.highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid black;
+    color: transparent;
+    margin: 10px;
+}
+
+.highlights h1 {
+    position: absolute;
+}
+
+.highlights:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.highlights img:hover {
+    opacity: 50%;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 5px solid black;
+    color: transparent;
+    margin: 10px;
+}
+
+.news h1 {
+    position: absolute;
+}
+
+.news:hover {
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.news img:hover {
+    opacity: 50%;
+}
+
+.youtube {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    background-color: #add2eb;
+    color: black;
+    box-shadow: 0 1px 8px #ddd;
+    padding: 20px 50px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 17px;
+    min-height: 500px;
+}
+
+.team img {
+    width: 300px;
+}
+
+.team p {
+    width: 300px;
+}
+
+.james {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.steven {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.julia {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 300px;
+}
+
+.headfoot {
+    display: flex;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    color: black;
+    justify-content: center;
+}
